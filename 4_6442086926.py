@@ -8,6 +8,6 @@ def search_alp(list,alp):
 	
 	
 	
-list = ['a','b','c']
+list = ['p', 'o', 'o', 'r', 'i', 's', 'h', 'c', 'h', 'a', 'r', 'o', 'e', 'n', 'k', 'u', 'l']
 
 print(search_alp(list,'a'))

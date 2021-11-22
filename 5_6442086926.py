@@ -1,4 +1,4 @@
-src = input("Your name and lastname:")
+src = input("Your name and lastname:").lower()
 src_li = []
 for i in range(len(src)):
 	if src[i]!=" ":
@@ -12,4 +12,5 @@ a = 0
 for i in range(len(src_li)):
 	a+=src_li[i]
 	
-
+print(src_li)
+print(a)
